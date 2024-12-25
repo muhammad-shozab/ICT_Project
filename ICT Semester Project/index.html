@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="short icon" href="/logo.png">
+</head>
+<body>
+    <div class="nav-toggle">
+        <button onclick="toggleNav()">☰</button>
+    </div>
+    <script>
+        function toggleNav() {
+            const nav = document.querySelector('nav');
+            nav.style.display = nav.style.display === 'none' || nav.style.display === '' ? 'flex' : 'none';
+        }
+    </script>
+        
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="/Logo.png"></a>
+            </div>
+
+            <ul>
+                <li><a href="index.html" class="action">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="/ICT Semester Project/Book your table.html">Reservation</a></li>
+            </ul>
+
+            <div class="login">
+                <a href="login.html">Login</a>
+            </div>
+
+           
+
+        </nav>
+
+        <div class="main">
+
+            <div class="main_text">
+
+                <h1>Fork & Flames<span> Where Every Bite </span>is a Delight!</h1>
+
+                <p>
+                    Discover a world of flavors at our restaurant, where we bring together the best of global cuisines to tantalize your taste buds. From classic comfort foods to exotic dishes, every item on our menu is crafted with fresh ingredients and a passion for excellence. Enjoy a warm and inviting ambiance, exceptional service, and a diverse menu that caters to every palate, including vegetarian and vegan. Whether dining in or ordering to-go, we promise a culinary journey that’s both delicious and unforgettable!
+                </p>
+
+                <a href="menu.html" class="btn">Order Now</a>
+
+            </div>
+
+            <div class="main_image">
+                <img src="image/main_img.png">
+            </div>
+
+        </div>
+
+    </section>
+
+<!--about-->
+
+
+    <div class="about">
+
+        <div class="about_main">
+
+            <div class="about_image">
+                <img src="image/about.png">
+            </div>
+
+            <div class="about_text">
+
+                <h3>Why Chose Us?</h3>
+                <p>
+                    At our restaurant, we celebrate diversity through food, offering a fusion of flavors from around the world to satisfy every craving. Whether you’re in the mood for spicy, savory, or sweet, our expertly crafted dishes use only the freshest ingredients to ensure a memorable dining experience. With a welcoming ambiance, attentive service, and a menu that caters to all dietary preferences, we’re your destination for a global culinary adventure in one place.
+                </p>
+                <a href="about.html" class="about_btn">Read More</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+<!--Popular Items-->
+
+    <div class="menu" id="Menu">
+        <h1>Popular<span>Items</span></h1>
+
+        <div class="menu_box">
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="/ICT Semester Project/menu_1.jpg">
+                </div>
+                <div class="menu_info">
+                    <h2>Smash Buger</h2>
+                    <p>
+                        A juicy beef patty smashed to perfection, layered with fresh lettuce, tomato, and melted cheese.
+                    </p>
+                    <h3>899 Rs</h3>
+                    <a href="cart.html" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+            
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="/ICT Semester Project/menu_10.jpg">
+                </div>
+                <div class="menu_info">
+                    <h2>pasta</h2>
+                    <p>
+                        Deliciously cooked pasta in a rich, savory sauce, served with a side of garlic bread.
+                    </p>
+                    <h3>499 Rs</h3>
+                    <a href="cart.html" class="menu_btn">Order Now</a>
+                </div>
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="/ICT Semester Project/menu_7.webp">
+                </div>
+                <div class="menu_info">
+                    <h2>lasagna</h2>
+                    <p>
+                        Layered with creamy cheese, hearty meat sauce, and tender pasta sheets—baked to perfection                    </p>
+                    <h3>599 Rs</h3>
+                    <a href="cart.html" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+
+             
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="/ICT Semester Project/menu_2.jpg">
+                </div>
+                <div class="menu_info">
+                    <h2>Choco Shake</h2>
+                    <p>
+                        A creamy, chocolatey delight topped with whipped cream and served with a sprinkle of cocoa.
+                    </p>
+                    <h3>150 Rs</h3>
+                    <a href="cart.html" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="/ICT Semester Project/gallery_29.jpg">
+                </div>
+                <div class="menu_info">
+                    <h2>pizza</h2>
+                    <p>
+                        A cheesy, oven-baked delight topped with fresh veggies, olives, and a medley of flavors.                    </p>
+                    <h3>1300 Rs</h3>
+                    <a href="cart.html" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="/ICT Semester Project/menu_12.jpg">
+                </div>
+                <div class="menu_info">
+                    <h2>Hot Dog</h2>
+                    <p>
+                        Grilled sausage in a soft bun, topped with mustard and ketchup for a classic taste                    </p>
+                    <h3>300 Rs</h3>
+                    <a href="cart.html" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="gallery_15.webp">
+                </div>
+                <div class="menu_info">
+                    <h2>Tacos</h2>
+                    <p>
+                        Soft tortillas filled with seasoned meat, fresh veggies, and a burst of zesty flavors.                    </p>
+                    <h3>500 Rs</h3>
+                    <a href="cart.html" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+
+            <div class="menu_card">
+
+                <div class="menu_image">
+                    <img src="/ICT Semester Project/gallery_10.jpg">
+                </div>
+                <div class="menu_info">
+                    <h2>Biryani</h2>
+                    <p>
+                        Aromatic rice layered with tender meat and flavorful spices, served with a touch of tradition                    </p>
+                    <h3>350 Rs</h3>
+                    <a href="cart.html" class="menu_btn">Order Now</a>
+                </div>
+
+            </div> 
+            
+        </div>
+        <div class="Menu button">
+            <button><a href="menu.html">View Complete Menu</a></button>
+        </div>
+
+    </div>
+
+
+
+
+    <!--Banner-->
+
+    <div class="banner">
+
+        <h1>Special Offer</h1>
+
+        <div class="banner_center">
+            <h2>40% Off <br><span>Pizza</span></h2>
+        </div>
+
+        <a href="cart.html" class="banner_btn">Order Now</a>
+
+    </div>
+
+
+    <!--Offer-->
+
+    <div class="offer">
+
+        <div class="offer_box">
+
+            <div class="offer_card_1">
+
+                <div class="offer_img">
+                    <img src="image/offer_1.jpg">
+                </div>
+
+                <div class="offer_tag">
+
+                    <h2>Triplae Food</h2>
+                    <h1>40%</h1>
+                    
+                    <a href="cart.html" class="offer_btn">Order Now</a>
+
+                </div>
+
+            </div>
+
+            <div class="offer_card_2">
+
+                <div class="offer_img">
+                    <img src="image/offer_2.png">
+                </div>
+
+                <div class="offer_tag">
+
+                    <h2>Buy 2 pizza and get a <br>free Drink</h2>
+                    
+                    <a href="cart.html" class="offer_btn">Order Now</a>
+
+                </div>
+
+        </div>
+
+    </div>
+
+
+<!--Review-->
+
+<div class="review" id="Review">
+    <h1>Customer<span>Review</span></h1>
+
+    <div class="review_box">
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="https://avatars.githubusercontent.com/u/143939048?v=4">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Mudassar</h2>
+
+                <p>
+                    Absolutely loved the variety on the menu! From the fresh sushi to the creamy pasta, every dish was perfectly prepared. 
+                    It’s the ideal spot for anyone who loves exploring different cuisines in one place. The cozy atmosphere and friendly staff made the experience even better. I can’t wait to come back and explore more of the menu!"
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="/ICT Semester Project/zain.jpg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Zain</h2>
+
+                <p>
+                    This place is perfect for a family outing! We have different tastes in food, and it’s always hard to find a place where everyone is happy, 
+                    but this restaurant nailed it. My kids loved the gourmet burgers, my husband enjoyed the spicy Indian curry, and I couldn’t get enough of the creamy Alfredo pasta. 
+                    The vibe was warm and welcoming, and the staff went above and beyond to accommodate us. Truly a great spot!
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="/ICT Semester Project/Saim.jpg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Saim</h2>
+                <p>
+                    I was blown away by the creativity and execution of the fusion dishes here! 
+                    The Mexican-Italian quesadilla was a delightful surprise, blending bold flavors seamlessly. The portions were generous, and the ingredients tasted so fresh. The service was impeccable—our waiter was attentive and ensured we had everything we needed. 
+                    This is easily one of the best dining experiences I’ve had in a long time!
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="review_card">
+
+            <div class="review_profile">
+                <img src="/ICT Semester Project/Haziq.jpg">
+            </div>
+
+            <div class="review_text">
+                <h2 class="name">Haziq</h2>
+
+                
+                <p>
+                    I can’t say enough good things about this restaurant! 
+                    The ambiance is elegant yet comfortable, and the menu is a dream for food lovers. I tried the Asian stir-fry and paired it with a decadent French chocolate mousse for dessert—it was the perfect mix of flavors. The attention to detail, from the plating to the service, was outstanding. 
+                    If you’re looking for a place to enjoy great food from around the world, this is it!
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+    <!--Branches-->
+
+    <div class="branches">
+        <h1>Our<span>Branches</span></h1>
+
+        <div class="branches_box">
+            <div class="profile">
+                <img src="/Branch4.avif">
+
+                <div class="info">
+                    <h2 class="name">Islamaad Branch</h2>
+                    <p class="bio"> Sector E-11/2 Main Double Road, Islamabad</p>
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="/Branch1.webp">
+
+                <div class="info">
+                    <h2 class="name">Multan Branch</h2>
+                    <p class="bio">13A Gulgasht colony, brand road, Multan</p>
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="/branch2.avif">
+
+                <div class="info">
+                    <h2 class="name">Lahore Branch</h2>
+                    <p class="bio"> MM Alam Rd, 90-B-1 Block B 1 Gulberg 2, Lahore</p>
+                </div>
+
+            </div>
+
+            <div class="profile">
+                <img src="/Branc3.jpg">
+
+                <div class="info">
+                    <h2 class="name">Peshawar Branch</h2>
+                    <p class="bio"> Ring Rd. near Achini Payan, Peshawar.</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!--contact-->
+
+    <div class="contact">
+
+        <h1><span>Contact</span>Us</h1>
+
+        <div class="contact_main">
+
+            <div class="contact_img">
+                <img src="image/oder.png">
+            </div>
+
+            <div class="contact_form">
+
+                <h2>Enter Details</h2>
+
+                <div class="contact_list">
+
+                    <div class="contact_left">
+
+                        <p>Full Name</p>
+                        <input type="text" placeholder="Muhammad Shozab">
+
+                        <p>Number</p>
+                        <input type="number" placeholder="+92 12 345 6789">
+
+                        <p>Your Message</p>
+                        <textarea placeholder="Enter You Message"></textarea>
+
+                    </div>
+
+                    <div class="contact_right">
+
+                        <p>Email</p>
+                        <input type="email" placeholder="shozab123@gmail.com">
+
+                        <p>Branch Name</p>
+                        <input type="text" placeholder="Branch Name">
+                    </div>
+
+                </div>
+
+                <a href="#" class="contact_btn">Submit</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+
+
+    <!--Footer-->
+
+    <footer>
+
+        <div class="footer_main">
+
+            <div class="footer_tag">
+
+                <h2>Cities</h2>
+                <p>Islamabad</p>
+                <p>Lahore</p>
+                <p>Multan</p>
+                <p>Peshawar</p>
+
+            </div>
+
+            <div class="footer_tag">
+
+                <h2>Quick Link</h2>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="About.html">About us</a></p>
+                <p><a href="menu.html">Menu</a></p>
+                <p><a href="/ICT Semester Project/Book your table.html">Reservation</a></p>
+
+            </div>
+
+            <div class="footer_tag">
+
+                <h2>Contact</h2>
+                <p>+92 12 3456 789</p>
+                <p>+92 25 5568 456</p>
+                <p>forkesandflames@gmail.com</p>
+                <p>Forkes_Contact@gmail.com</p>
+
+            </div>
+
+            <div class="footer_tag">
+
+                <h2>Our Services</h2>
+                <p>Fast Delivery</p>
+                <p>Easy Payments</p>
+                <p>24 x 7 Service</p>
+                <p>Online Reservation</p>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+background-image: url(/—Pngtree—abstract\ blur\ coffee\ shop\ or_15505703.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form Container */
+.form-container {
+    background: rgba(255, 255, 255, 0.249);
+    padding: 20px 30px;
+    padding-right: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.form-container h2 {
+    font-size: 24px;
+    color: #21120B;
+    margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container button {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddddda5;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-color: #d35400;
+}
+
+.form-container button {
+    background-color: #d35400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+    background-color: #e67e22;
+}
+
+input{
+    border-color: rgba(255, 255, 255, 0.142);
+    margin-right: px;
+}
+

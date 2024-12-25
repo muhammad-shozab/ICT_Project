@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Cart - Forkes and Flames</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+     <!--Navigation Bar-->
+
+     <div class="nav-toggle">
+        <button onclick="toggleNav()">☰</button>
+    </div>
+    <script>
+        function toggleNav() {
+            const nav = document.querySelector('nav');
+            nav.style.display = nav.style.display === 'none' || nav.style.display === '' ? 'flex' : 'none';
+        }
+    </script>
+        
+    <section id="Home">
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img src="/Logo.png"></a>
+            </div>
+
+            <ul>
+                <li><a href="index.html" class="action">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="/ICT Semester Project/Book your table.html">Reservation</a></li>
+            </ul>
+
+            <div class="login">
+                <a href="cart.html">Cart</a>
+            </div>
+
+           
+
+        </nav>
+
+
+    <!-- Cart Section -->
+    <section class="cart">
+        <div class="cart-header">
+            <h1>Your <span>Cart</span></h1>
+            <p>Total items: 3</p>
+        </div>
+        <div class="cart-content">
+            <!-- Items Section -->
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="/ICT Semester Project/gallery_8.jpg" class="item-image">
+                    <div class="item-details">
+                        <h3>Biryani</h3>
+                        <p>Full</p>
+                        <p><a href="#" class="remove">Remove</a></p>
+                    </div>
+                    <div class="item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <span>1</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <div class="item-price">
+                        <p>Rs. 350</p>
+                    </div>
+                </div>
+
+                <div class="cart-item">
+                    <img src="/ICT Semester Project/menu_3.png" class="item-image">
+                    <div class="item-details">
+                        <h3>Pizza</h3>
+                        <p>Large</p>
+                        <p><a href="#" class="remove">Remove</a></p>
+                    </div>
+                    <div class="item-quantity">
+                        <button class="quantity-btn">-</button>
+                        <span>2</span>
+                        <button class="quantity-btn">+</button>
+                    </div>
+                    <div class="item-price">
+                        <p>Rs. 2,600</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Summary Section -->
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <p>SubTotal: Rs. 2,950</p>
+                <p>Discount: Rs. -750</p>
+                <p>Tax: Rs. 30</p>
+                <p>Delivery Fee: Rs. 50</p>
+                <h3>Total: Rs. 3,050</h3>
+            </div>
+        </div>
+
+        <!-- Payment Section -->
+        <div class="payment-method">
+            <h2>Payment Method</h2>
+            <label><input type="radio" name="payment" value="card"> Pay by Card</label><br>
+            <label><input type="radio" name="payment" value="cod"> Cash on Delivery</label>
+        </div>
+
+        <!-- Checkout Section -->
+        <div class="checkout">
+            <button class="checkout-btn">Checkout Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Forkes and Flames. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
